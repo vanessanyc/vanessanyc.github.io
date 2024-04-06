@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'PP Neue Montreal Book';
+    src: url('fonts/PPNeueMontreal-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal Thin';
+    src: url('fonts/PPNeueMontreal-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NN Noire Trial';
+    src: url('fonts/NN_NoireTrial.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+}
+
+body {
+    background-color: #e2e2e2; 
+}
+
+body h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: PP Neue Montreal Book;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Roboto Light';
+    color: #333;
+    background-color: transparent;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family:'Roboto Light';
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto Light';
+}
+
+p {
+    line-height: .95;
+    color: #333;
+}
+
+.star {
+    color: #333;
+    font-family: 'Roboto Light';
+    font-size: large;
+}
+
+footer p{
+    text-align: center;
+    color: #333;
+    font-size: small;
+    cursor: pointer;
+}
+
+.header, .intro, .bio, .projects, .footer {
+    margin-bottom: 20px; 
+}
+
+.greeting {
+    margin-bottom: 40px;
+}
+
+.college-graduate, .healthcare-interest {
+    margin-bottom: 30px; 
+}
+
+.projects-title {
+    margin-bottom: 30px; 
+}
+
+.contact-link {
+    display: block; 
+    margin-top: 20px; 
+}
